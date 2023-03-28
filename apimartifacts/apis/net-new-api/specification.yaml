@@ -4,9 +4,19 @@ info:
   description: 'A sample API with information related to a technical conference.  The available resources  include *Speakers*, *Sessions* and *Topics*.  A single write operation is available to provide  feedback on a session.'
   version: '1.0'
 servers:
-  - url: https://api.waelsconsulting.com
-  - url: https://portal.waelsconsulting.com
+  - url: https://api.mitul.dev
+  - url: https://portal.mitul.dev
 paths:
+  /netnew:
+    get:
+      summary: GetNetNew
+      description: A list of new items.
+      operationId: GetNetNew
+      responses:
+        '200':
+          description: OK
+          content:
+            application/vnd.collection+json: { }
   /sessions:
     get:
       summary: GetSessions
