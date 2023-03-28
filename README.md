@@ -1,6 +1,6 @@
 # Azure API Management - APIOps Demo
 
-A demonstration of the APIOps DevOps approach for Azure API Management:
+A demonstration of the [APIOps DevOps](https://azure.github.io/apiops/) approach for Azure API Management:
 
 ## Basic Concepts
 
