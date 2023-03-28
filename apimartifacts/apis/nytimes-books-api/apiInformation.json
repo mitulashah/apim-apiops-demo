@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "The Books API provides information about book reviews and The New York Times Best Sellers lists.\n\n## Best Sellers Lists Services\n### List Names\nThe lists/names service returns a list of all the NYT Best Sellers Lists.  Some lists are published weekly and others monthly.  The response includes when each list was first published and last published.\n\n\u0060\u0060\u0060\n/lists/names.json\n\u0060\u0060\u0060\n\n### List Data\n\nThe lists/{date}/{name} service returns the books on the best sellers list for the specified date and list name.\n\n\u0060\u0060\u0060\n/lists/2019-01-20/hardcover-fiction.json\n\u0060\u0060\u0060\n\nUse \u0022current\u0022 for {date} to get the latest list.\n\u0060\u0060\u0060\n/lists/current/hardcover-fiction.json\n\u0060\u0060\u0060\n\n## Book Reviews Services\n\nThe book reviews service lets you get NYT book review by author, ISBN, or title.\n\n\u0060\u0060\u0060\n/reviews.json?author=Michelle\u002BObama\n\u0060\u0060\u0060\n\n\u0060\u0060\u0060\n/reviews.json?isbn=9781524763138\n\u0060\u0060\u0060\n\n\u0060\u0060\u0060\n/reviews.json?title=Becoming\n\u0060\u0060\u0060\n\n## Example Calls\n\n\u0060\u0060\u0060\nhttps://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=yourkey\n\u0060\u0060\u0060\n\n\u0060\u0060\u0060\nhttps://api.nytimes.com/svc/books/v3/reviews.json?author=Stephen\u002BKing\u0026api-key=yourkey\n\u0060\u0060\u0060\n",
+    "displayName": "NYTimes Books API",
+    "isCurrent": true,
+    "path": "books",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://api.nytimes.com/svc/books/v3",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}
