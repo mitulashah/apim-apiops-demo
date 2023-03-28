@@ -8,7 +8,7 @@
     "protocols": [
       "https"
     ],
-    "serviceUrl": "http://echoapi.cloudapp.net/api",
+    "serviceUrl": "https://apiops-demo-dev.azure-api.net/echo",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"
