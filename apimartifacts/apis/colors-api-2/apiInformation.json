@@ -1,0 +1,29 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "contact": {
+      "email": "mark.colorsapi@harrison.ws",
+      "name": "Mark Harrison",
+      "url": "https://github.com/markharrison/ColorsAPI"
+    },
+    "description": "Colors API 2: The Next Generation",
+    "displayName": "Colors API 2",
+    "isCurrent": true,
+    "license": {
+      "name": "Use under MIT License",
+      "url": "https://github.com/markharrison/ColorsAPI/blob/master/LICENSE"
+    },
+    "path": "colors2",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://markcolorapi.azurewebsites.net/",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true,
+    "termsOfServiceUrl": "https://github.com/markharrison/ColorsAPI/blob/master/LICENSE"
+  }
+}
