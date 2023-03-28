@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "Search New York Times movie reviews by keyword and opening date and filter by Critics\u0027 Picks.\n\nGet movie reviews that are critics\u0027 picks:\n\n\u0060\u0060\u0060\n/reviews/picks.json\n\u0060\u0060\u0060\n\nGet movie reviews with \u0022lebowski\u0022 in the title:\n\n\u0060\u0060\u0060\n/reviews/search.json?query=lebowski\n\u0060\u0060\u0060\n\nGet movie reviews with \u0022big\u0022 in the title that opened in the U.S. between 1980 and 1990:\n\n\u0060\u0060\u0060\n/reviews/search.json?query=big\u0026opening-date=1980-01-01:1990-01-01\n\u0060\u0060\u0060\n\nGet all movie reviews by A. O. Scott:\n\n\u0060\u0060\u0060\n/critics/A.%20O.%20Scott.json\n\u0060\u0060\u0060\n\nGet movie critic names:\n\n\u0060\u0060\u0060\n/critics/all.json\n\u0060\u0060\u0060\n\n## Example Call\n\u0060\u0060\u0060\nhttps://api.nytimes.com/svc/movies/v2/reviews/search.json?query=godfather\u0026api-key=yourkey\n\u0060\u0060\u0060\n",
+    "displayName": "NYTimes Movie Reviews API",
+    "isCurrent": true,
+    "path": "movies",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://api.nytimes.com/svc/movies/v2",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}

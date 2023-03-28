@@ -50,7 +50,7 @@
             "in": "query",
             "description": "Sets the starting point of the result set (0, 20, ...).  Used to paginate thru books if list has more than 20. Defaults to 0.  The num_results field indicates how many books are in the list.",
             "schema": {
-              "multipleOf": 20,
+              "multipleOf": 20.0,
               "type": "integer"
             }
           }
@@ -72,8 +72,8 @@
                     {
                       "list_name": "Hardcover Fiction",
                       "display_name": "Hardcover Fiction",
-                      "bestsellers_date": "2016-03-05",
-                      "published_date": "2016-03-20",
+                      "bestsellers_date": "2016-03-05T00:00:00.0000000+00:00",
+                      "published_date": "2016-03-20T00:00:00.0000000+00:00",
                       "rank": 5,
                       "rank_last_week": 2,
                       "weeks_on_list": 2,
@@ -147,7 +147,7 @@
             "in": "query",
             "description": "Sets the starting point of the result set (0, 20, ...).  Used to paginate thru books if list has more than 20. Defaults to 0.  The num_results field indicates how many books are in the list.",
             "schema": {
-              "multipleOf": 20,
+              "multipleOf": 20.0,
               "type": "integer"
             }
           }
@@ -167,8 +167,8 @@
                   "last_modified": "2015-12-25T18:05:20.0000000+00:00",
                   "results": {
                     "list_name": "Trade Fiction Paperback",
-                    "bestsellers_date": "2015-12-19",
-                    "published_date": "2016-01-03",
+                    "bestsellers_date": "2015-12-19T00:00:00.0000000+00:00",
+                    "published_date": "2016-01-03T00:00:00.0000000+00:00",
                     "display_name": "Paperback Trade Fiction",
                     "normal_list_ends_at": 10,
                     "updated": "WEEKLY",
@@ -306,8 +306,8 @@
                   "copyright": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
                   "num_results": 210,
                   "results": {
-                    "bestsellers_date": "2016-03-05",
-                    "published_date": "2016-03-20",
+                    "bestsellers_date": "2016-03-05T00:00:00.0000000+00:00",
+                    "published_date": "2016-03-20T00:00:00.0000000+00:00",
                     "lists": [
                       {
                         "list_id": 704,
@@ -364,8 +364,8 @@
                       "list_name": "Combined Print and E-Book Fiction",
                       "display_name": "Combined Print & E-Book Fiction",
                       "list_name_encoded": "combined-print-and-e-book-fiction",
-                      "oldest_published_date": "2011-02-13",
-                      "newest_published_date": "2016-03-20",
+                      "oldest_published_date": "2011-02-13T00:00:00.0000000+00:00",
+                      "newest_published_date": "2016-03-20T00:00:00.0000000+00:00",
                       "updated": "WEEKLY"
                     }
                   ]
@@ -419,7 +419,7 @@
             "in": "query",
             "description": "Sets the starting point of the result set (0, 20, ...).  Used to paginate thru results if there are more than 20. Defaults to 0. The num_results field indicates how many results there are total.",
             "schema": {
-              "multipleOf": 20,
+              "multipleOf": 20.0,
               "type": "integer"
             }
           },
@@ -483,8 +483,8 @@
                           "rank": 8,
                           "list_name": "Business Books",
                           "display_name": "Business",
-                          "published_date": "2016-03-13",
-                          "bestsellers_date": "2016-02-27",
+                          "published_date": "2016-03-13T00:00:00.0000000+00:00",
+                          "bestsellers_date": "2016-02-27T00:00:00.0000000+00:00",
                           "weeks_on_list": 0,
                           "ranks_last_week": null,
                           "asterisk": 0,
@@ -554,7 +554,7 @@
                   "results": [
                     {
                       "url": "http://www.nytimes.com/2011/11/10/books/1q84-by-haruki-murakami-review.html",
-                      "publication_dt": "2011-11-10",
+                      "publication_dt": "2011-11-10T00:00:00.0000000+00:00",
                       "byline": "JANET MASLIN",
                       "book_title": "1Q84",
                       "book_author": "Haruki Murakami",
