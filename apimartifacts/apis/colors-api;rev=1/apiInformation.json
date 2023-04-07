@@ -1,7 +1,6 @@
 {
   "properties": {
-    "apiRevision": "2",
-    "apiRevisionDescription": "New stuff here",
+    "apiRevision": "1",
     "authenticationSettings": {},
     "contact": {
       "email": "mark.colorsapi@harrison.ws",
@@ -10,7 +9,6 @@
     },
     "description": "Colors API",
     "displayName": "Colors API",
-    "isCurrent": true,
     "license": {
       "name": "Use under MIT License",
       "url": "https://github.com/markharrison/ColorsAPI/blob/master/LICENSE"
