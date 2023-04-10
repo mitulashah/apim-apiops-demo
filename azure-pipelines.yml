@@ -14,7 +14,7 @@ steps:
   - task: AzureCLI@2
     displayName: Azure Dev Deploy
     inputs:
-      azureSubscription: openai-p66-demo
+      azureSubscription: openai-p66-demo-ms
       scriptType: bash
       scriptLocation: inlineScript
       inlineScript: |
