@@ -1,0 +1,34 @@
+{
+  "properties": {
+    "backend": {
+      "request": {
+        "dataMasking": {
+          "queryParams": [
+            {
+              "mode": "Hide",
+              "value": "*"
+            }
+          ]
+        }
+      }
+    },
+    "frontend": {
+      "request": {
+        "dataMasking": {
+          "queryParams": [
+            {
+              "mode": "Hide",
+              "value": "*"
+            }
+          ]
+        }
+      }
+    },
+    "logClientIp": true,
+    "loggerId": "/subscriptions/a50b41ae-0181-47a3-a314-e613afc25818/resourceGroups/rg-apiops-demo/providers/Microsoft.ApiManagement/service/apiops-demo-dev/loggers/azuremonitor",
+    "sampling": {
+      "percentage": 100,
+      "samplingType": "Fixed"
+    }
+  }
+}
